@@ -1,0 +1,22 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/Ramajayam9751/html-demo-project-20.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+	vscode-merge-base = origin/main
+[branch "ex-1"]
+	remote = origin
+	merge = refs/heads/ex-1
+	vscode-merge-base = origin/ex-1
+[branch "ex-2"]
+	remote = origin
+	merge = refs/heads/ex-2
+	vscode-merge-base = origin/ex-2
